@@ -2,204 +2,126 @@
 
 In deze les gaan we de allergemakkelijkste schakeling maken die er is: Blink!
 
-## Blink: een Arduino aansluiten
+![Sunglasses](EmojiSunglasses.png) | Belangrijker is dat we leren hoe je een mBot aansluit
+:-------------:|:----------------------------------------: 
 
-Sluit een Arduino zo aan:
+## 1.1 Blink: een mBot aansluiten
 
-![Blink zonder led](1_blink_zonder_led.png)
+Verbind de mBot met een computer met een USB kabel:
 
-Je zult wel een USB kabel in de Arduino en in een laptop moeten doen
+![](usb_aansluiting.jpg)
 
-## Blink: opdracht 1
+Verbind de mBot met de batterijen:
 
-Sluit de Arduino aan.
+![](batterijen_aansluiting.jpg)
 
-![Sunglasses](EmojiSunglasses.png) | De Arduino heeft zelf al een lampje dat je kunt programmeren.
+Zet de mBot aan:
+
+![](aan_knop.jpg)
+
+![Sunglasses](EmojiSunglasses.png) | Als je vergeet de mBot aan te zetten, mislukt het uploaden
+:-------------:|:----------------------------------------: 
+
+## 1.2 Blink: een mBot verbinden
+
+Start mBlock.
+
+![mBlok snelkoppeling](mblock_snelkoppeling.png)
+
+Linksonderin zie je een gedeelte met 'Apparaten':
+
+ * Verwijder Codey
+ * Druk op de '+' om mBot toe te voegen
+ * Klik op 'Verbinden'
+ * Klik op 'Upload Modus'
+ * Klik op 'Gebeurtenissen'
+
+![Upload-modus is aan](upload_modus_aan.png)
+
+![Sunglasses](EmojiSunglasses.png) | Als het gelukt is, ziet je scherm er zo uit als in plaatje 'Upload-modus is aan'
+:-------------:|:----------------------------------------: 
+
+## 1.3 Blink: alle LEDs branden rood
+
+ * Maak je eerste programma 'alle LEDs branden rood':
+
+![1.3 Blink: alle LEDs branden rood](1_3.png)
+
+ * Klik op 'Uploaden'
+
+![Sunglasses](EmojiSunglasses.png) | Als het gelukt is, gaan alle LEDs rood branden
+:-------------:|:----------------------------------------: 
+
+## 1.4 Blink: een andere kleur, opdracht
+
+Schrijf een programma:
+
+ * alle LEDs branden blauw
+
+![Sunglasses](EmojiBowtie.png) | Tip: klik op de gekleurde punt rechts van 'toon kleur' in het 'LED all toon kleur rood' blok
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Blink: de Arduino IDE opstarten
+## 1.5 Blink: een andere kleur, oplossing
 
-Om een Arduino te programmeren hebben we een programma nodig.
-Dit programma noemen we 'de Arduino IDE' (IDE spreek je uit
-als 'ie-dee-ee')
+![1.5 Blink: een andere kleur, oplossing](1_5.png)
 
-De Arduino IDE staat op alle laptops van de cursus.
-Hier zie je het logo van de Arduino IDE:
+\pagebreak
 
-![Logo van de Arduino IDE](1_blink_ide_logo.png)
+## 1.6 Blink: rood dan groen, opdracht
 
-Je kunt de Arduino IDE ook starten, door:
+Schrijf een programma:
 
- * Druk op de Windows toets (linksonder, tussen `Ctrl` en `Alt`)
- * Type `arduino` (kleine letters) en dan Enter
+ * alle LEDs branden rood
+ * wacht een seconden
+ * alle LEDs branden groen
 
-Als het goed is, zie je de Arduino IDE:
-
-![De Arduino IDE](1_blink_ide.png)
-
-![Sunglasses](EmojiSunglasses.png) | IDE betekent 'Integrated Development Environment', het programma waarmee je programmeert.
+![Sunglasses](EmojiBowtie.png) | Tip: gebruik een 'Wacht 1 sec' blok, onder 'Besturen'.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Blink: ons eerste programma
+## 1.7 Blink: rood dan groen, oplossing
 
-Dit is (een versie van) de code van `Blink`:
-
-```c++
-void setup() 
-{
-  pinMode(13, OUTPUT);
-}
-
-void loop() 
-{
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-}
-```
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`void setup() { }`|'Lieve computer, doe wat tussen accolades staat een keer.'
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`void loop() { }`|'Lieve computer, doe de hele tijd wat tussen accolades staat.'
-
-Type de code over in de Arduino IDE en klik op `Upload`.
-
-![Hier kun je op `Upload` klikken](1_blink_upload.png)
-
-## Blink: opdracht 2
-
-Laat het LEDje 10x zo snel knipperen. 
-Hint: het LEDje is nu 1000 milliseconden aan en 1000 milliseconden uit.
+![1.7 Blink: rood dan groen, oplossing](1_7.png)
 
 \pagebreak
 
-## Blink: oplossing 2
+## 1.8 Blink: eeuwig groen en blauw, opdracht
 
-```c++
-void setup() 
-{
-  pinMode(13, OUTPUT);
-}
+Schrijf een programma:
 
-void loop() 
-{
-  digitalWrite(13, HIGH);
-  delay(100);
-  digitalWrite(13, LOW);
-  delay(100);
-}
-```
+ * alle LEDs branden groen
+ * wacht een seconden
+ * alle LEDs branden blauw
+ * wacht een seconden
+ * begin overniew
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`pinMode(13, OUTPUT);`|'Lieve computer, zorg dat er stroom uit pin 13 kan komen.'
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`digitalWrite(13, HIGH);`|'Lieve computer, zet spanning op pin 13.'
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`delay(1000);`|'Lieve computer, doe nu 1000 milliseconden niks.'
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`digitalWrite(13, LOW);`|'Lieve computer, zet geen spanning op pin 13.'
-
-## Blink: opdracht 3
-
-Laat het LEDje zo snel als kan knipperen. Wat zie je?
-
-\pagebreak
-
-## Blink: oplossing 3
-
-Er zijn meer oplossingen, dit is er een:
-
-```c++
-void setup() 
-{
-  pinMode(13, OUTPUT);
-}
-
-void loop() 
-{
-  digitalWrite(13, HIGH);
-  delay(1);
-  digitalWrite(13, LOW);
-  delay(1);
-}
-```
-
-![Bowtie](EmojiBowtie.png) | Ook goed: `delay(0);` of de regels met `delay` helemaal weghalen.
-:-------------:|:----------------------------------------: 
-
-Je ziet het lampje niet meer knipperen. 
-
-![Sunglasses](EmojiSunglasses.png) | Het lampje knippert wel, maar onze ogen kunnen niet snel genoeg kijken om het te zien.
+![Sunglasses](EmojiBowtie.png) | Tip: gebruik een 'herhaal' blok, onder 'Besturen'
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Blink: LED aansluiten
+## 1.9 Blink: eeuwig groen en blauw, oplossing
 
-Nu is het tijd Blink aan te sluiten:
-
-![Blink](1_blink.png)
-
- * Haal het USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
- * Sluit Blink aan zoals op de tekening
- * Zet de spanning weer op de Arduino
- * Als het goed is, knippert het rode LEDje nu mee met het LEDje op de Arduino. 
-
-![Bowtie](EmojiBowtie.png) | Als het LEDje niet brandt, draai deze dan om.
-:-------------:|:----------------------------------------: 
-
-## Blink: opdracht 4
-
-Sluit je LEDje nu aan op pin 12.
+![1.9 Blink: eeuwig groen en blauw, oplossing](1_9.png)
 
 \pagebreak
 
-## Blink: oplossing 4
+## 1.10 Blink: eindopdracht
 
-![Blink met LEDje op pin 12](1_blink_op_12.png)
+Schrijf een programma:
 
-## Blink: opdracht 5
+ * alle LEDs branden rood
+ * wacht 0,1 seconde (dit is een tiende van een seconde) 
+ * alle LEDs zijn uit
+ * wacht 0,1 seconde
+ * begin overniew
 
-Zorg nu dat het LEDje op pin 12 gaat knipperen op de seconde.
+Tip: in mBlock schrijf je 0,1 seconde als 0.1 seconde
 
-\pagebreak
+Engelsen gebruiken een punt voor kommagetallen!
 
-## Blink: oplossing 5
-
-```c++
-void setup() 
-{
-  pinMode(12, OUTPUT);
-}
-
-void loop() 
-{
-  digitalWrite(12, HIGH);
-  delay(100);
-  digitalWrite(12, LOW);
-  delay(100);
-}
-```
-
-## Blink: eindopdracht
-
-Sluit de LED aan op pin 11 en laat deze 2 keer per seconde knipperen.
-
-![Sunglasses](EmojiSunglasses.png) | Gelukt? Laat dit zien aan een volwassene voor een sticker!
+![Sunglasses](EmojiSunglasses.png) | Gelukt? Laat dit aan een volwassene zien voor een paraaf!
 :-------------:|:----------------------------------------: 
