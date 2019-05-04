@@ -116,9 +116,9 @@ Schrijf een programma:
 
 Dit kan op twee manieren:
 
-1|2
----|---
-![](3_11_1.png)|![](3_11_2.png)
+![3.11 Knop: lichteffect met knop, oplossing 1](3_11_1.png)
+
+![3.11 Knop: lichteffect met knop, oplossing 2](3_11_2.png)
 
 ## 3.12 Knop: eindopdracht
 
