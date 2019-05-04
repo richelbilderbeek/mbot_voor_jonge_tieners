@@ -4,8 +4,8 @@ In deze les gaan we met twee LEDs werken.
 
 ## 2.1 Blink Blink: beginprogramma, wie heeft gelijk?
 
- * Hieronder staan twee meningen van wat het programma eronder doet.
-   Heeft de smiley met de zonnebril, of die met het strikje gelijk?
+ * Hieronder staan drie meningen van wat het programma eronder doet.
+   Welke van de drie smileys heeft gelijk?
 
 ![Sunglasses](EmojiSunglasses.png) | De linker en rechter LED gaan omstebeurt knipperen! Een disco!
 :-------------:|:----------------------------------------: 
@@ -21,6 +21,8 @@ In deze les gaan we met twee LEDs werken.
 ## 2.2 Blink Blink: beginprogramma, opdracht
 
  * Maak het programma en upload het programma
+
+\pagebreak
 
 ## 2.3 Blink Blink: beginprogramma, oplossing
 
@@ -43,6 +45,8 @@ Schrijf een programma:
 
 ![Sunglasses](EmojiSunglasses.png) | Jippie, een disco!
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 2.5 Blink Blink: disco, oplossing
 
@@ -69,6 +73,8 @@ Schrijf een programma:
 ![Smiley](EmojiSmiley.png) | Jippie, een looplicht!
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 2.7 Blink Blink: looplicht, oplossing
 
 Ook hier zijn meer manieren, hier is een voorbeeld:
@@ -80,11 +86,18 @@ Ook hier zijn meer manieren, hier is een voorbeeld:
 Schrijf een programma:
 
  * de linker LED brandt groen
- * wacht een seconde
+ * wacht 0,5 seconde
  * alle LEDs zijn uit
- * wacht een seconde
+ * wacht 0,5 seconde
  * de rechter LED brandt blauw
- * wacht een seconde
+ * wacht 0,5 seconde
  * alle LEDs zijn uit
- * wacht een seconde
+ * wacht 0,5 seconde
  * herhaal
+
+Tip: in mBlock schrijf je 0,5 seconde als 0.5 seconde
+
+Engelsen gebruiken een punt voor kommagetallen!
+
+![Bowtie](EmojiBowtie.png) | Geen idee hoe je dit lichtpatroon noemt...
+:-------------:|:----------------------------------------: 
