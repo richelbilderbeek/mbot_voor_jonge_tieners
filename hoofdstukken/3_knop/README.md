@@ -131,8 +131,8 @@ Schrijf een programma:
  * Als de knop wel is ingedrukt, dan zijn de LEDs uit
  * Herhaal dit eeuwig
 
-![Bowtie](EmojiBowtie.png) | Tip: in mBlock schrijf je 0,1 seconde als 0.1 seconde
+![](EmojiBowtie.png) | Tip: in mBlock schrijf je 0,1 seconde als 0.1 seconde
 :-------------:|:----------------------------------------: 
 
-![Sunglasses](EmojiSunglasses.png) | Engelsen gebruiken een punt voor kommagetallen!
+![](EmojiSunglasses.png) | Engelsen gebruiken een punt voor kommagetallen!
 :-------------:|:----------------------------------------: 
