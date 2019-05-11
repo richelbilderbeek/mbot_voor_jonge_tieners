@@ -9,8 +9,8 @@
 
 ## 2. Outputs en inputs
 
- * [Les 5: 7 segment](/README.md) 
- * [Les 6: RGB](/README.md) (on-board en module) 
+ * [Les 5: 7 segment](5_7_segment_display/README.md) 
+ * [Les 6: RGB](6_rgb/README.md) (on-board en module) 
  * [Les 7: PIR en Potmeter](/README.md) 
  * [Les 8: Joystick en afstandssensor](/README.md) 
 
