@@ -57,6 +57,8 @@ Wie van de smileys heeft nu gelijk?
 ![Bowtie](EmojiBowtie.png) | Als je de knop indrukt bij het opstarten, zie je even alle LEDs eventjes groen branden. Anders zie je eventjes alle LEDs rood branden.
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 4.5 Knop opladen: knopdetector, oplossing
  
 ![4.5 Knop opladen: knopdetector, oplossing](4_5.png)
@@ -65,6 +67,8 @@ De gewone smiley had gelijk.
 
 ![](EmojiSmiley.png) | Ha!
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 4.6 Knop opladen: flip verhoger, opdracht
 
@@ -81,6 +85,8 @@ De gewone smiley had gelijk.
 :-------------:|:----------------------------------------: 
 
 ![4.6 Knop opladen: flip verhoger, opdracht](4_6.png)
+
+\pagebreak
 
 ## 4.7 Knop opladen: flip verhoger, oplossing
  
@@ -101,16 +107,18 @@ Alleen als `flip` precies een is, branden de LEDs groen.
 ![](EmojiComputer.png) | Het teken `>` lees je als 'groter dan'
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | Als je de knop lang genoeg indrukt, branden de LEDs eeuwig groen. Daarvoor branden ze rood.
+![](EmojiBowtie50.png) | Als je de knop lang genoeg indrukt, branden de LEDs eeuwig groen. Daarvoor branden ze rood.
 :-------------:|:----------------------------------------: 
 
-![](EmojiSunglasses.png) | Als je de knop lang genoeg indrukt, branden de LEDs groen tot je de knop los laat. Daarvoor en daarna branden ze rood.
+![](EmojiSunglasses50.png) | Als je de knop lang genoeg indrukt, branden de LEDs groen tot je de knop los laat. Daarvoor en daarna branden ze rood.
 :-------------:|:----------------------------------------: 
 
-![](EmojiSmiley.png) | Als je de knop tienduizend keer indrukt, gaan de LEDs groen branden. Dat is erg veel werk. Daarom branden de LEDs zo goed als eeuwig rood.
+![](EmojiSmiley50.png) | Als je de knop tienduizend keer indrukt, gaan de LEDs groen branden. Dat is erg veel werk. Daarom branden de LEDs zo goed als eeuwig rood.
 :-------------:|:----------------------------------------: 
 
 ![4.8 Knop opladen: knop die oplaad, opdracht](4_8.png)
+
+\pagebreak
 
 ## 4.9 Knop opladen: knop die oplaadt, oplossing
  
