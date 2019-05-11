@@ -1,0 +1,34 @@
+language: generic
+dist: xenial
+
+# Dependency of the minted package
+before_install:
+ - sudo apt-get install python-pygments
+
+install:
+ - source ./texlive/texlive_install.sh
+cache:
+  directories:
+    - /tmp/texlive
+    - $HOME/.texlive
+
+# Change working directory so including files will work
+before_script: cd $TRAVIS_BUILD_DIR
+
+script:
+  # texliveonfly will download packages automatically, running pdflatex by default. Change compiler with e.g. --compiler=lualatex
+  - texliveonfly --arguments="--shell-escape" ./main.tex
+  # Compile twice to fix possible references
+  - texliveonfly --arguments="--shell-escape" ./main.tex
+
+script: 
+  - sudo apt-get install coreutils pandoc poppler-utils fragmaster texlive-fonts-recommended bookletimposer
+  - cd scripts
+  - ./maak_boek_voorpaginas
+  - ./maak_boek_1_led_en_knop
+  #- ./maak_boek_2_sensor
+  #- ./maak_boek_3_actuatoren_laag
+  #- ./maak_boek_4_actuatoren_hoog
+  #- ./maak_boek_5_muziek
+  #- ./maak_boek_6_theremin
+  #- ./maak_boek_neopixel
