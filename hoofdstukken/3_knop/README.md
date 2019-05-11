@@ -24,6 +24,8 @@ In deze les gaan we met de on-board drukknop werken.
 
  * Maak het programma en upload het programma
 
+![3.2 Knop: beginprogramma, opdracht](3_1.png)
+
 ![Bowtie](EmojiBowtie.png) | Het 'als ... dan' blok staat onder 'Besturen'
 :-------------:|:----------------------------------------: 
 
@@ -60,6 +62,8 @@ Schrijf een programma :warning: zonder te uploaden en zonder 'herhaal blok':warn
 ![Bowtie](EmojiBowtie.png) | Het 'als ... dan ... anders' blok staat onder 'Besturen'
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 3.5 Knop: als dan anders, oplossing
 
 ![3.5 Knop: als dan anders, oplossing](3_5.png)
@@ -78,13 +82,15 @@ heeft volgens jou gelijk?
 ![Bowtie](EmojiBowtie.png) | Als je de knop indrukt bij het opstarten, gaan alle LEDs rood branden. Als je de knop loslaat, gaan alle LEDs uit. 
 :-------------:|:----------------------------------------: 
 
-## 3.7 Knop: als dan anders voorspellen, opdracht
+\pagebreak
+
+## 3.7 Knop: als dan anders voorspellen, oplossing
 
 De smiley met de zonnebril heeft gelijk!
 De 'als ... dan ... ander' wordt een keer gedaan, bij het opstarten, daarna
 is het programma klaar.
 
-![Sunglasses](EmojiSunglasses.png) | Ha!
+![](EmojiSunglasses.png) | Ha!
 :-------------:|:----------------------------------------: 
 
 ## 3.8 Knop: aanzetten met knop, opdracht
@@ -94,6 +100,14 @@ Schrijf een programma:
  * als de ingebouwde knop ingedrukt is, dan branden de LEDs rood,
    anders branden de LEDs zwart
  * herhaal dit eeuwig
+
+![](EmojiBowtie.png) | Eeuwig is wel erg lang
+:-------------:|:----------------------------------------: 
+
+![](EmojiSunglasses.png) | Vind ik niet: ik ben eeuwig cool!
+:-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 3.9 Knop: aanzetten met knop, oplossing
 
@@ -114,11 +128,13 @@ Schrijf een programma:
 ![Sunglasses](EmojiSunglasses.png) | Dit kan met een 'Als ... dan' of met een 'Als ... dan ... anders' blok
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 3.11 Knop: lichteffect met knop, oplossing
 
 Dit kan op twee manieren:
 
-1|2
+Manier 1|Manier 2
 ---|---
 ![](3_11_1.png)|![](3_11_2.png)
 
