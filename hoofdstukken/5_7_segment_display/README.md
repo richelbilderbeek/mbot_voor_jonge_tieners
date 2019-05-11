@@ -117,3 +117,6 @@ Maak een blok:
  * Maak een blok: `effe_wachten`. Hierin wacht het programma 1 seconde
  * Maak een blok: `doe_eeuwig`. Hierin staat het programma: herhaal
    `laat_teller_zien`, dan `effe_wachten`, dan `verander_teller`
+
+![5.11 7-segment display: eindopdracht blokken](5_11_2.png)
+
