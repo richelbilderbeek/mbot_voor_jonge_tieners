@@ -8,7 +8,7 @@ In de map '[boeken](boeken/README.md)'.
 
 Jazeker:
 
- * Appingedam, maandagavond
+ * [Appingedam, maandagavond](https://github.com/richelbilderbeek/damster_dojo)
 
 ## Wat is de licensie op de boeken?
 
