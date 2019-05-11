@@ -2,44 +2,70 @@
 
 In deze les gaan we de allergemakkelijkste schakeling maken die er is: Blink!
 
-![Sunglasses](EmojiSunglasses.png) | Belangrijker is dat we leren hoe je een mBot aansluit
+![](EmojiSunglasses.png) | Belangrijker is dat we leren hoe je een mBot aansluit
 :-------------:|:----------------------------------------: 
 
 ## 1.1 Blink: een mBot aansluiten
 
 Verbind de mBot met een computer met een USB kabel:
 
-![](usb_aansluiting.jpg)
+![USB aansluiting op de mBot](usb_aansluiting.png)
 
-Verbind de mBot met de batterijen:
+Zet de mBot aan. 
 
-![](batterijen_aansluiting.jpg)
+![Aan knop op de mBot](aan_knop.png)
 
-Zet de mBot aan:
-
-![](aan_knop.jpg)
-
-![Sunglasses](EmojiSunglasses.png) | Als je vergeet de mBot aan te zetten, mislukt het uploaden
+![](EmojiBowtie.png) | Als je vergeet de mBot aan te zetten, mislukt het uploaden
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 1.2 Blink: een mBot verbinden
 
-Start mBlock.
+ * Start mBlock met de mBlock snelkoppeling
+ * Linksonderin zie je een gedeelte met 'Apparaten':
+   Verwijder Codey, door op het kruisje te drukken. 
+   Klik op OK om Codey echt weg te krijgen.
 
-![mBlok snelkoppeling](mblock_snelkoppeling.png)
+![](mblock_snelkoppeling.png) | ![](codey.png)
+:------------------:|:------------------------------------------: 
+mBlock snelkoppeling|Klik op het kruisje om Codey te verwijderen
 
-Linksonderin zie je een gedeelte met 'Apparaten':
+ 
+ * Druk op de '+' om de 'Apparaat bibliotheek' te openen. Klik op mBot
 
- * Verwijder Codey
- * Druk op de '+' om mBot toe te voegen
- * Klik op 'Verbinden'
- * Klik op 'Upload Modus'
+![](cody_weg.png)                      | ![](apparaat_bibliotheek.png)
+:-------------------------------------:|:---------------------------------------: 
+Klik op OK om Codey echt weg te krijgen|Klik op mBot in de 'Apparaat bibliotheek'
+
+ * Klik op 'Verbinden' om een verbinding the maken. Klik in de pop-up
+   weer op 'Verbinden'
+
+![](verbinden_starten.png)                     |![](verbinden.png)
+:---------------------------------------------:|:-----------------------------------: 
+Klik op 'Verbinden' om een verbinding the maken|Klik in de pop-up weer op 'Verbinden'
+
+ * Klik op 'Upload Modus' om de upload modus aan te zetten
+
+![Klik op 'Upload Modus'](upload_modus_uit.png)
+
+Als de upload modus aan is, kunnen we programmeren!
+
  * Klik op 'Gebeurtenissen'
 
-![Upload-modus is aan](upload_modus_aan.png)
+Gelukt!
 
-![Sunglasses](EmojiSunglasses.png) | Als het gelukt is, ziet je scherm er zo uit als in plaatje 'Upload-modus is aan'
+\pagebreak
+
+![](EmojiBowtie.png) | Als het gelukt is, ziet je scherm er zo uit als in plaatje 'Gelukt!'
 :-------------:|:----------------------------------------: 
+
+![Gelukt!](upload_modus_aan.png)
+
+![](EmojiSunglasses.png) | Als het gelukt is, ziet je scherm er zo uit als in plaatje 'Gelukt!'
+:-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 1.3 Blink: alle LEDs branden rood
 
@@ -49,7 +75,7 @@ Linksonderin zie je een gedeelte met 'Apparaten':
 
  * Klik op 'Uploaden'
 
-![Sunglasses](EmojiSunglasses.png) | Als het gelukt is, gaan alle LEDs rood branden
+![](EmojiSunglasses.png) | Als het gelukt is, gaan alle LEDs rood branden
 :-------------:|:----------------------------------------: 
 
 ## 1.4 Blink: een andere kleur, opdracht
@@ -58,7 +84,10 @@ Schrijf een programma:
 
  * alle LEDs branden blauw
 
-![Sunglasses](EmojiBowtie.png) | Tip: klik op de gekleurde punt rechts van 'toon kleur' in het 'LED all toon kleur rood' blok
+![](EmojiBowtie.png) | Tip: klik op de gekleurde punt rechts van 'toon kleur' in het 'LED all toon kleur rood' blok
+:-------------:|:----------------------------------------: 
+
+![](EmojiSunglasses.png) | Heb je een hint nodig? Op de volgende pagina staat de oplossing!
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -66,8 +95,6 @@ Schrijf een programma:
 ## 1.5 Blink: een andere kleur, oplossing
 
 ![1.5 Blink: een andere kleur, oplossing](1_5.png)
-
-\pagebreak
 
 ## 1.6 Blink: rood dan groen, opdracht
 
@@ -77,7 +104,13 @@ Schrijf een programma:
  * wacht een seconden
  * alle LEDs branden groen
 
-![Sunglasses](EmojiBowtie.png) | Tip: gebruik een 'Wacht 1 sec' blok, onder 'Besturen'.
+![](EmojiBowtie.png) | Tip: gebruik een 'Wacht 1 sec' blok, onder 'Besturen'.
+:-------------:|:----------------------------------------: 
+
+![](EmojiSunglasses.png) | Heb je een hint nodig? Op de volgende pagina staat de oplossing!
+:-------------:|:----------------------------------------: 
+
+![](EmojiSmiley.png) | Dat heb je al gezegd!
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -85,8 +118,6 @@ Schrijf een programma:
 ## 1.7 Blink: rood dan groen, oplossing
 
 ![1.7 Blink: rood dan groen, oplossing](1_7.png)
-
-\pagebreak
 
 ## 1.8 Blink: eeuwig groen en blauw, opdracht
 
@@ -101,13 +132,14 @@ Schrijf een programma:
 ![Sunglasses](EmojiBowtie.png) | Tip: gebruik een 'herhaal' blok, onder 'Besturen'
 :-------------:|:----------------------------------------: 
 
+![](EmojiSunglasses.png) | Het is een soort onderwaterdisco!
+:-------------:|:----------------------------------------: 
+
 \pagebreak
 
 ## 1.9 Blink: eeuwig groen en blauw, oplossing
 
 ![1.9 Blink: eeuwig groen en blauw, oplossing](1_9.png)
-
-\pagebreak
 
 ## 1.10 Blink: eindopdracht
 
