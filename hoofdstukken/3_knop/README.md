@@ -18,6 +18,8 @@ In deze les gaan we met de on-board drukknop werken.
 
 ![3.1 Knop: beginprogramma](3_1.png)
 
+\pagebreak
+
 ## 3.2 Knop: beginprogramma, opdracht
 
  * Maak het programma en upload het programma

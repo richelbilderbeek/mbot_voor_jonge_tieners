@@ -52,7 +52,7 @@ Schrijf een programma:
 
 Er zijn twee manieren, allebei zijn ze goed:
 
-1|2
+Manier 1|Manier 2
 ---|---
 ![](2_5_1.png)|![](2_5_2.png)
 
@@ -79,7 +79,7 @@ Schrijf een programma:
 
 Ook hier zijn meer manieren, hier is een voorbeeld:
 
-![](2_7.png)
+![2.7 Blink Blink: looplicht, oplossing](2_7.png)
 
 ## 2.8 Blink Blink: eindopdracht
 
