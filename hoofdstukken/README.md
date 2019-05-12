@@ -11,7 +11,7 @@
 
  * [Les 5: 7 segment](5_7_segment_display/README.md) 
  * [Les 6: RGB](6_rgb/README.md) 
- * [Les 7: PIR en Potmeter](/README.md) 
+ * [Les 7: Potmeter](7_pot/README.md) 
  * [Les 8: Joystick en afstandssensor](/README.md) 
 
 ## 3. Communicatie en beweging

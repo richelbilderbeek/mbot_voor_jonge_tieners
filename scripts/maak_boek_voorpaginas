@@ -17,3 +17,4 @@ cp ../hoofdstukken/voorpagina/*.* $build_folder
 cd $build_folder
 
 pandoc voorpagina_1_led_en_knop.md -o ../../boeken/voorpagina_1_led_en_knop.pdf
+pandoc voorpagina_2_outputs_en_inputs.md -o ../../boeken/voorpagina_2_outputs_en_inputs.pdf

@@ -72,7 +72,7 @@ Maak een programma:
 
 ## 5.6 7-segment display: tot tien tellen, oplossing
 
-![7-segment display: tot tien tellen, oplossing](4_6.png)
+![7-segment display: tot tien tellen, oplossing](5_6.png)
 
 ## 5.7 7-segment display: blok `verander_teller`, opdracht
 
