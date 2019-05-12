@@ -111,6 +111,14 @@ Wat zie je? Het is misschien niet wat je verwacht!
 ![](EmojiBowtie.png) | Een LED toont de rood, de tweede groen, de derde blauw, de vierde allemaal samen
 :-------------:|:----------------------------------------:
 
+![](EmojiSunglasses.png) | Vindt je de LEDs te fel? Gebruik dan het programma hieronder:
+:-------------:|:----------------------------------------:
+
+![6.9 RGB: RGB display, oplossing met minder felle LEDs](6_9_2.png)
+
+![](EmojiBowtie.png) | De `/ 2` lees je als: 'gedeeld door twee'.
+:-------------:|:----------------------------------------:
+
 ## 6.10 RGB: regenboog stap 1, opdracht
 
  * Maak een vierde variabele: `stap`. 
