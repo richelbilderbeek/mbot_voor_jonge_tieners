@@ -14,6 +14,11 @@ Als je geen 'Makersplatform' blokken hebt, installeer deze:
 
 ![Zoek 'Makerplatform' en klik eronder op 'Toevoegen'](extensie_centrum.png) 
 
+![](EmojiSunglasses.png) | Er zijn genoeg coole uitbreidingen voor mBot!
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
 ## 5.2 7-segment display: eerste getal, opdracht
 
  * Stop een 7-segment display in poort 1
@@ -25,6 +30,11 @@ Als je geen 'Makersplatform' blokken hebt, installeer deze:
 ![](5_2.png)
 
  * Wat zie je op het 7-segment display?
+
+![](EmojiBowtie.png) | 7-segmenten display, oftewel iets dat getallen laat zien met zeven LEDjes 
+:-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 5.2 7-segment display: eerste getal, oplossing
 
@@ -45,6 +55,17 @@ Maak een programma:
    * Verander `teller` met 1
 
 Hoe lang duurt het ongeveer voor de teller over de duizend komt?
+
+![](EmojiBowtie.png) | Je mag best een andere naam dan `teller` kiezen
+:-------------:|:----------------------------------------: 
+
+![](EmojiSunglasses.png) | Ik gebruik graag de variabelenaam `ikbencool`
+:-------------:|:----------------------------------------: 
+
+![](EmojiSmiley.png) | Programmeurs gebruiken graag de variabelenaam `i`
+:-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 5.4 7-segment display: tellen, oplossing
 
@@ -70,6 +91,8 @@ Maak een programma:
 ![](EmojiBowtie.png) | Het is niet erg als je `1.000`, `2.000`, enzovoorts ziet
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 5.6 7-segment display: tot tien tellen, oplossing
 
 ![7-segment display: tot tien tellen, oplossing](5_6.png)
@@ -91,12 +114,17 @@ Maak een blok:
    * Wacht 1 seconde
    * `verander_teller` wort gedaan
 
-![](EmojiBowtie.png) | Blokken maak je code leesbaarder
-:-------------:|:----------------------------------------: 
+\pagebreak
 
 ## 5.8 7-segment display: blok `verander_teller`, oplossing
 
 ![5.8 7-segment display: blok `verander_teller`, oplossing](5_8.png)
+
+![](EmojiBowtie.png) | Blokken maak je code leesbaarder
+:-------------:|:----------------------------------------: 
+
+![](EmojiSunglasses.png) | Met blokken kan iedereen gemakkelijker zien wat je programma doet
+:-------------:|:----------------------------------------: 
 
 ## 5.9 7-segment display: blok `verander_teller`, opdracht
 
@@ -107,6 +135,8 @@ Maak een blok:
    * `laat_teller_zien` wordt gedaan
    * Wacht 1 seconde
    * `verander_teller` wort gedaan
+
+\pagebreak
 
 ## 5.10 7-segment display: blok `verander_teller`, oplossing
 
@@ -120,3 +150,8 @@ Maak een blok:
 
 ![5.11 7-segment display: eindopdracht blokken](5_11_2.png)
 
+![](EmojiSunglasses.png) | Effe wachten ... pizza!
+:-------------:|:----------------------------------------: 
+
+![](EmojiBowtie.png) | (je ouders snappen deze grap misschien wel)
+:-------------:|:----------------------------------------: 
