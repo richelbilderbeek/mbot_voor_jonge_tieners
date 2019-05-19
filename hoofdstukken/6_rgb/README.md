@@ -2,14 +2,13 @@
 
 In deze les gaan we met RGB waarden werken.
 
-![Rainbow Dash is een pony met regenboog vacht](rainbow_dash.png)
+![Rainbow Dash is een pony met regenboog vacht](rainbow_dash.png)|![](rgb_module.jpg)
+--------------------------------------------|--------------------------------------------
+Rainbow Dash is een pony met regenboog haar |Een RGB module
 
 ## 6.1 RGB: Start
 
  * Sluit een RGB module aan op poort 1
- 
-![](rgb_module.jpg)
-
  * Maak onderstaand programma na:
 
 ![6.1 RGB: Start](6_1.png)
@@ -18,6 +17,8 @@ In deze les gaan we met RGB waarden werken.
 :-------------:|:----------------------------------------:
 
  * Welke kleur denk je dat dit wordt?
+
+\pagebreak
 
 ## 6.2 RGB: Kleurencirkel, opdracht
 
@@ -29,6 +30,9 @@ In deze les gaan we met RGB waarden werken.
  * Verander `laat_zien`, zodat deze de kleur cyaan laat zien
    
 ![](EmojiBowtie.png) | Een rood, groen of blauwwaarde kan niet hoger zijn dan 255
+:-------------:|:----------------------------------------:
+
+![](EmojiSunglasses.png) | Er zijn meer kleurencirkels! Dit is de kleurencirkel van licht, omdat pixels kleine lampjes zijn
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -135,6 +139,12 @@ Wat zie je? Het is misschien niet wat je verwacht!
 ![](EmojiBowtie.png) | Wat zie je? Het is misschien niet wat je verwacht!
 :-------------:|:----------------------------------------:
 
+![](EmojiSmiley.png) | Effe wachten ... nog effe wachten ... pizza!
+:-------------:|:----------------------------------------:
+
+![](EmojiSmiley.png) | Onze programma's zijn groot, dus stoer! 
+:-------------:|:----------------------------------------:
+
 \pagebreak
  
 ## 6.11 RGB: regenboog stap 1, oplossing
@@ -144,10 +154,10 @@ Wat zie je? Het is misschien niet wat je verwacht!
 ![](EmojiSunglasses.png) | De eerste LED brandt rood en blijft rood
 :-------------:|:----------------------------------------:
 
-![](EmojiSunglasses.png) | De tweede LED brandt zwart en wordt groen
+![](EmojiBowtie.png) | De tweede LED brandt zwart en wordt groen
 :-------------:|:----------------------------------------:
 
-![](EmojiSunglasses.png) | De vierde LED brandt rood en wordt geel
+![](EmojiSmiley.png) | De vierde LED brandt rood en wordt geel
 :-------------:|:----------------------------------------:
 
 ## 6.12 RGB: regenboog stap 2, opdracht
@@ -168,10 +178,10 @@ Wat zie je? Het is misschien niet wat je verwacht!
 
 ![6.13 RGB: regenboog stap 2, oplossing](6_13.png)
 
-![](EmojiSunglasses.png) | De eerste LED brandt een tijd rood en gaat dan uit
+![](EmojiSmiley.png) | De eerste LED brandt een tijd rood en gaat dan uit
 :-------------:|:----------------------------------------:
 
-![](EmojiSunglasses.png) | De tweede LED brandt zwart en wordt groen en blijft groen
+![](EmojiBowtie.png) | De tweede LED brandt zwart en wordt groen en blijft groen
 :-------------:|:----------------------------------------:
 
 ![](EmojiSunglasses.png) | De vierde LED brandt rood, wordt geel, dan blijft dan groen
@@ -209,14 +219,16 @@ Wat zie je? Het is misschien niet wat je verwacht!
 ![](EmojiSunglasses.png) | De eerste LED brandt een tijd rood en gaat dan uit
 :-------------:|:----------------------------------------:
 
-![](EmojiSunglasses.png) | De tweede LED brandt zwart en wordt groen en blijft groen
+![](EmojiSmiley.png) | De tweede LED brandt zwart en wordt groen en blijft groen
 :-------------:|:----------------------------------------:
 
-![](EmojiSunglasses.png) | De derde LED brandt zwart en wordt blauw en blijft blauw
+![](EmojiBowtie.png) | De derde LED brandt zwart en wordt blauw en blijft blauw
 :-------------:|:----------------------------------------:
 
 ![](EmojiSunglasses.png) | De vierde LED brandt rood, wordt geel, dan groen, dan cyaan
 :-------------:|:----------------------------------------:
+
+\pagebreak
 
 ## 6.16 RGB: eindopdracht
 
@@ -235,5 +247,8 @@ Wat zie je? Het is misschien niet wat je verwacht!
  * Doe in `volgende_kleur_6`: 
     * verander `blauw` met `-1`
     * als `blauw` gelijk is aan `0`, zet `stap` op `1`
+
+![](EmojiSunglasses.png) | Hieronder staat in een plaatje hoe een regenboog werk
+:-------------:|:----------------------------------------:
 
 ![6.16 RGB: eindopdracht](regenboog.png)
