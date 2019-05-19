@@ -248,7 +248,7 @@ Wat zie je? Het is misschien niet wat je verwacht!
     * verander `blauw` met `-1`
     * als `blauw` gelijk is aan `0`, zet `stap` op `1`
 
-![](EmojiSunglasses.png) | Hieronder staat in een plaatje hoe een regenboog werk
+![](EmojiSunglasses.png) | Hieronder staat in een plaatje hoe een regenboog werkt
 :-------------:|:----------------------------------------:
 
 ![6.16 RGB: eindopdracht](regenboog.png)

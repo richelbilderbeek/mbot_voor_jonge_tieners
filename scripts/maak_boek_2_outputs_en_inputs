@@ -16,12 +16,14 @@ fi
 cp ../hoofdstukken/voorwoord/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_00.md
 cp ../hoofdstukken/5_7_segment_display/*.* $build_folder      ; mv $build_folder/README.md $build_folder/README_01.md
 cp ../hoofdstukken/6_rgb/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
+cp ../hoofdstukken/7_pot/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
 
 cd $build_folder
 
 cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 
 # Table of Content
 # Code has highlights following the tango color scheme
