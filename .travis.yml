@@ -1,5 +1,5 @@
 language: generic
-dist: xenial
+dist: bionic
 
 # Dependency of the minted package
 before_install:
